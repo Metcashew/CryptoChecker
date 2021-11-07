@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon"
+        href="data:image/png;base64,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">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@300&display=swap" rel="stylesheet">
+    <title>Monedero Crypto</title>
+</head>
+<body>
+
+    <script>
+        //BITCOIN
+        window.setInterval(BTC, 2500);
+        function BTC(responseText) {
+            var burl = "https://api.binance.com";
+            var query = '/api/v3/ticker/price';
+            query += '?symbol=BTCUSDT';
+            var url = burl + query;
+            var ourRequest = new XMLHttpRequest();
+            ourRequest.open('GET', url, true);
+            ourRequest.onload = function () {
+                console.log(ourRequest.responseText);
+                var txt =  document.getElementById('BTC').innerHTML = (ourRequest.responseText);
+                    document.getElementById('BTC').innerHTML = document.getElementById('BTC').innerHTML.replace(/{"symbol":"BTCUSDT","price":"/g, "");
+                    document.getElementById('BTC').innerHTML = document.getElementById('BTC').innerHTML.replace(/"}/g, "");
+                    document.getElementById('BTC').innerHTML = document.getElementById('BTC').innerHTML.replace(/000/g, "");
+                //document.getElementById('BTC').innerHTML = ourRequest.responseText;
+                
+                var txt = parseFloat(txt);
+               
+            }
+            ourRequest.send();
+        }
+        //DOGECOIN
+        window.setInterval(DOGE, 2500);
+        function DOGE(responseText) {
+            var burl = "https://api.binance.com";
+            var query = '/api/v3/ticker/price';
+            query += '?symbol=DOGEUSDT';
+            var url = burl + query;
+            var ourRequest = new XMLHttpRequest();
+            ourRequest.open('GET', url, true);
+            ourRequest.onload = function () {
+                console.log(ourRequest.responseText);
+                var txt = document.getElementById('DOGE').innerHTML = (ourRequest.responseText);
+                document.getElementById('DOGE').innerHTML = document.getElementById('DOGE').innerHTML.replace(/{"symbol":"DOGEUSDT","price":"/g, "");
+                document.getElementById('DOGE').innerHTML = document.getElementById('DOGE').innerHTML.replace(/"}/g, "");
+                document.getElementById('DOGE').innerHTML = document.getElementById('DOGE').innerHTML.replace(/000/g, "");
+                //document.getElementById('BTC').innerHTML = ourRequest.responseText;
+            }
+            ourRequest.send();
+        }
+        //BNB
+        window.setInterval(BNB, 2500);
+        function BNB(responseText) {
+            var burl = "https://api.binance.com";
+            var query = '/api/v3/ticker/price';
+            query += '?symbol=BNBUSDT';
+            var url = burl + query;
+            var ourRequest = new XMLHttpRequest();
+            ourRequest.open('GET', url, true);
+            ourRequest.onload = function () {
+                console.log(ourRequest.responseText);
+                var txt = document.getElementById('BNB').innerHTML = (ourRequest.responseText);
+                document.getElementById('BNB').innerHTML = document.getElementById('BNB').innerHTML.replace(/{"symbol":"BNBUSDT","price":"/g, "");
+                document.getElementById('BNB').innerHTML = document.getElementById('BNB').innerHTML.replace(/"}/g, "");
+                document.getElementById('BNB').innerHTML = document.getElementById('BNB').innerHTML.replace(/000/g, "");
+                //document.getElementById('BTC').innerHTML = ourRequest.responseText;
+            }
+            ourRequest.send();
+        }
+        //Ethereum 
+        //window.setInterval(ETH,5000);
+        //function ETH(responseText) {
+        //var burl = "https://api.binance.com";
+        //var query = '/api/v3/ticker/price'; 
+        //query += '?symbol=ETH_USDT';
+        //var url = burl + query;
+        //var ourRequest = new XMLHttpRequest();
+        //ourRequest.open('ETH',url,true);
+        //ourRequest.onload = function(){
+        //    console.log(ourRequest.responseText);
+        //    var txt = document.getElementById('ETH').innerHTML= (ourRequest.responseText);
+        //    document.getElementById('ETH').innerHTML = document.getElementById('ETH').innerHTML.replace( /{"symbol":"ETHUSDT","price":"/g, "");
+        //    document.getElementById('ETH').innerHTML = document.getElementById('ETH').innerHTML.replace( /"}/g, "");
+        //    document.getElementById('ETH').innerHTML = document.getElementById('ETH').innerHTML.replace( /000/g, "");
+        //    //document.getElementById('BTC').innerHTML = ourRequest.responseText;
+        //}
+        //ourRequest.send();    
+        //}
+
+        //LITECOIN
+        window.setInterval(LTC, 2500);
+        function LTC(responseText) {
+            var burl = "https://api.binance.com";
+            var query = '/api/v3/ticker/price';
+            query += '?symbol=LTCUSDT';
+            var url = burl + query;
+            var ourRequest = new XMLHttpRequest();
+            ourRequest.open('GET', url, true);
+            ourRequest.onload = function () {
+                console.log(ourRequest.responseText);
+                var txt = document.getElementById('LTC').innerHTML = (ourRequest.responseText);
+                document.getElementById('LTC').innerHTML = document.getElementById('LTC').innerHTML.replace(/{"symbol":"LTCUSDT","price":"/g, "");
+                document.getElementById('LTC').innerHTML = document.getElementById('LTC').innerHTML.replace(/"}/g, "");
+                document.getElementById('LTC').innerHTML = document.getElementById('LTC').innerHTML.replace(/000/g, "");
+                //document.getElementById('BTC').innerHTML = ourRequest.responseText;
+            }
+            ourRequest.send();
+        }
+        //SHIBA INU
+        window.setInterval(SHIB, 2500);
+        function SHIB(responseText) {
+            var burl = "https://api.binance.com";
+            var query = '/api/v3/ticker/price';
+            query += '?symbol=SHIBUSDT';
+            var url = burl + query;
+            var ourRequest = new XMLHttpRequest();
+            ourRequest.open('GET', url, true);
+            ourRequest.onload = function () {
+                console.log(ourRequest.responseText);
+                var txt = document.getElementById('SHIB').innerHTML = (ourRequest.responseText);
+                document.getElementById('SHIB').innerHTML = document.getElementById('SHIB').innerHTML.replace(/{"symbol":"SHIBUSDT","price":"/g, "");
+                document.getElementById('SHIB').innerHTML = document.getElementById('SHIB').innerHTML.replace(/"}/g, "");
+                
+                //document.getElementById('BTC').innerHTML = ourRequest.responseText;
+            }
+            ourRequest.send();
+        }
+       
+    </script>
+    <div style="position:sticky; top: 0px; left: 0px;">
+    <header style="background-color: whitesmoke;">
+        <nav class="nav">
+            <div class="header">
+                <a href="" class="Start">Inicio<sup>USD</sup></a>
+                
+            </div>
+        </nav>
+    </header>
+    </div>
+    <center>
+    <h2>What is Cryptocurrency?</h2>
+    <span>Cryptocurrency is a form of payment that can be exchanged online for goods and services. Many companies have
+        issued their own currencies, often called tokens, and these can be traded specifically for the good or service
+        that the company provides. Think of them as you would arcade tokens or casino chips. </span><br>
+    <br><br>
+    </center>
+    <div style="background-size: cover; position: relative; background-color: rgb(48, 71, 94); top: 0px; left: 0px; width: auto; height: 600px;"><br>
+        <div class="BTC">
+            <header>
+                <center>BitCoin: <br>
+                <span style="color:greenyellow;" id="BTC"></span>
+            </header>
+            </center><br>
+            <center><img src="https://bitcoin.org/img/icons/opengraph.png?1630339663"
+                    style="width: 125px; height: 150px; position: relative; top: -20px;"></center>
+        </div>
+        <div class="DOGE">
+            <header>
+                <center>DogeCoin: <br><span style="color:greenyellow;" id="DOGE"></span>
+            </header>
+            </center><br>
+            <center><img src="http://assets.stickpng.com/thumbs/5a521f5b2f93c7a8d5137fc8.png"
+                    style="width: 230px; height: 250px; position: relative; top: -50px;"> </center>
+        </div>
+        <div class="BNB">
+            <header>
+                <center>Bnb: <br><span style="color:greenyellow;" id="BNB"></span>
+            </header>
+            </center><br>
+            <center><img src="https://i.postimg.cc/nccvMbT9/bnb-inversion-socialbi.png"
+                    style="width: 250px; height: 150px; position: relative; top: -20px;"></center>
+        </div>
+        <div class="ETH">
+            <header>
+                <center>Ethereum: <br><span style="color:red;" id="ETH">Work In Progress</span>
+            </header>
+            </center><br>
+            <center><img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Ethereum-icon-purple.svg/1200px-Ethereum-icon-purple.svg.png"
+                    style="width: 150px; height: 150px; position: relative; top: -20px;"></center>
+        </div>
+        <div class="LTC">
+            <header>
+                <center>Litecoin: <br><span style="color:greenyellow;" id="LTC"></span>
+            </header>
+            </center><br>
+            <center><img src="https://s3.cointelegraph.com/storage/uploads/view/bf7541e09a456a3fc6113ec9c7cdf408.png"
+                    style="width: 150px; height: 150px; position: relative; top: -20px;"></center>
+        </div>
+        <div class="SHIB">
+            <header>
+                <center>SHIBA INU: <br><span style="color:greenyellow;" id="SHIB"></span>
+            </header>
+            </center><br>
+            <center><img src="https://s2.coinmarketcap.com/static/img/coins/200x200/5994.png"
+                    style="width: 200px; height: 200px; position: relative; top: -35px;"></center>
+        </div>
+    </div>
+    <div style="background-color: rgb(34, 40, 49); background-size: cover;"><br>
+        <span style="font-family: 'Stick No Bills', sans-serif; font-weight:bold; font-size: 30px;"><center>Angel Ruben Acosta Merino <sup>&copy;</sup></center> </span><br>
+    </div>
+</body>
+</html>
